@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(duene.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;   
+    }
+#wrapper{
+    width: 900px;
+    margin: 0 auto;
+    background-image: url(hintergrund-inhalt.png);    
+}
+header{
+    background-image: url(verlauf.png), url(hintergrund-kopf.png);
+    background-repeat: no-repeat;
+    background-position: right 28px, center;
+    width: 900px;
+    height: 151px;
+    margin: 0 auto;
+}
+#logotext{
+    padding-top: 45px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+header p{
+    text-align: right;
+    padding-right: 20px;
+    font-size: 1em;
+    color: white;
+    text-shadow: 1px 1px 4px black;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+header a:hover{
+    text-decoration: underline;
+}
+#steuerung-oben{
+    background-image: url(durchsichtiges-grau.png);
+    height: 1.5em;
+}
+#steuerung-oben ul{
+    list-style-type: none;      
+}
+#steuerung-oben li{
+    display: inline-block;
+}
+#steuerung-oben a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    width: 230px;
+    text-align: center;
+    line-height: 1.5em;
+}
+#steuerung-oben a:hover{
+    background-image: url(durchsichtiges-grau.png);
+}
+#steuerung-links{
+   /* background-color: yellow;*/
+    width: 220px;
+    float: left;
+    margin-top: 20px;   
+}
+#steuerung-links ul{
+    padding-left: 2em;
+    list-style-type: none;
+}
+#steuerung-links ul ul{
+    list-style-type: square;
+    padding-top: 0.4em;
+    padding-left: 1em;
+    color: coral;
+}
+#steuerung-links li{
+    padding-bottom: 0.6em;
+}
+#steuerung-links a{
+    color: coral;
+    text-decoration: none;
+    font-size: 1em;
+    display: inline-block;
+    width: 100%;
+}
+#steuerung-links a:hover{
+    text-decoration: underline;
+    -webkit-animation-name: animation_steuerung_links;
+    animation-name: animation_steuerung_links;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+@-webkit-keyframes animation_steuerung_links{
+    0%  {color: coral;}
+    50% {color: blue;}
+    100%{color: coral;}
+}
+@keyframes animation_steuerung_links{
+    0%  {color: coral;}
+    50% {color: blue;}
+    100%{color: coral;}
+}
+article{
+    /*background-color: lightgreen;*/
+    width: 430px;
+    float: left;
+    margin-left: 40px;
+    line-height: 1.4em;   
+}
+article p{
+    padding-bottom: 1em;   
+}
+article ul{
+    padding-left: 2em;
+    padding-bottom: 1em;   
+}
+article h1{
+    color: coral;
+    font-size: 1.7em;
+    padding-top: 20px;
+    padding-bottom: 0.2em;
+}
+article h2{
+    color: coral;
+    font-size: 1.4em;
+    padding-top: 0.6em;
+    padding-bottom: 0.2em;
+}
+article hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+aside{
+    /*background-color: pink;*/
+    width: 165px;
+    float: right;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px black;
+    margin-top: 20px;
+}
+aside img{
+    border: solid 1px silver;
+}
+footer{
+    clear: both;
+    background-image: url(durchsichtiges-grau.png);
+    text-align: center;
+    height: 1.5em;
+    line-height: 1.5em;
+    color: white;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
